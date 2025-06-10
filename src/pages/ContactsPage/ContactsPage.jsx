@@ -25,10 +25,6 @@ export default function ContactsPage() {
   return (
     <>
       <PageTitle>Your contacts</PageTitle>
-      <ContactForm />
-      {isLoading && <p>Loading contacts...</p>}
-      {error && <p>Error: {error}</p>}
-      <ContactList contacts={contacts} />
     </>
   );
 }
