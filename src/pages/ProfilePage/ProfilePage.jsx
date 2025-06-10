@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import PageTitle from "../../components/PageTitle/PageTitle";
 import { selectUser } from "../../redux/auth/selectors";
-import css from "./Profile.module.css";
+import css from "./ProfilePage.module.css";
 
 export default function Profile() {
   const user = useSelector(selectUser);
