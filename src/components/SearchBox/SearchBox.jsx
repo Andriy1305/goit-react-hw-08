@@ -18,7 +18,7 @@ const SearchBox = () => {
 
   useEffect(() => {
     return () => {
-      debouncedDispatch.cancel(); // очищаємо debounce при розмонтуванні
+      debouncedDispatch.cancel();
     };
   }, [debouncedDispatch]);
 
